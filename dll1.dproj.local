@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.751,=C:\Users\ввм\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,=C:\Users\ввм\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025.07.22 12:39:43.448,C:\_WORK\sobes\dll1.dproj=C:\Users\ввм\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2025.07.22 13:19:25.380,=C:\_WORK\sobes\Unit1.pas</Transaction>
+    <Transaction>2025.07.22 13:25:05.445,=C:\_WORK\sobes\uTaskInterface.pas</Transaction>
+    <Transaction>2025.07.22 13:25:37.619,=C:\_WORK\sobes\uTask.pas</Transaction>
+    <Transaction>2025.07.22 13:25:47.550,=C:\_WORK\sobes\uTaskParam.pas</Transaction>
+    <Transaction>2025.07.22 13:25:57.454,=C:\_WORK\sobes\uParamFrame.pas</Transaction>
+    <Transaction>2025.07.22 13:26:03.407,=C:\_WORK\sobes\uNamed.pas</Transaction>
+    <Transaction>2025.07.22 13:29:38.740,C:\_WORK\sobes\dll1\uMain.pas=C:\_WORK\sobes\Unit1.pas</Transaction>
+    <Transaction>2025.07.22 13:32:50.647,=C:\_WORK\sobes\uEditFrame.pas</Transaction>
+    <Transaction>2025.07.22 18:04:57.588,=C:\_WORK\sobes\Unit1.pas</Transaction>
+    <Transaction>2025.07.22 18:05:20.553,C:\_WORK\sobes\uTaskThread.pas=C:\_WORK\sobes\Unit1.pas</Transaction>
+    <Transaction>2025.07.23 17:19:22.990,C:\_WORK\sobes\uTaskThread.pas=</Transaction>
+    <Transaction>2025.07.23 17:19:36.311,C:\_WORK\sobes\uParamFrame.pas=</Transaction>
+    <Transaction>2025.07.23 17:19:49.397,C:\_WORK\sobes\uEditFrame.pas=</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="dll1"/>
+    <File Path="dll1\uMain.pas"/>
+    <File Path="uNamed.pas"/>
+    <File Path="uTask.pas"/>
+    <File Path="uTaskInterface.pas"/>
+    <File Path="uTaskParam.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
