@@ -176,6 +176,7 @@ begin
       vFrame.eParamValue.Text:=I.Value;
       vFrame.Enabled:=not btnStop.Enabled;
     end;
+    Check(Sender);
   end;
 end;
 
