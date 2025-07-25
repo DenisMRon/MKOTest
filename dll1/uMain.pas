@@ -55,6 +55,14 @@ begin
 end;
 
 
+function CheckLenght(aValue: string): string;
+begin
+  if Length(aValue) > 0 then
+    Result:=EmptyStr
+  else
+    Result:='Значение не задано';
+end;
+
 function GetTasks: TArray<ITask>;
 begin
   Result:=vTasks.ToArray;
@@ -71,13 +79,13 @@ initialization
                          else
                            Result:='Путь не существует';
                        end),
-                       TTaskParam.Create('Маска', nil)],
+                       TTaskParam.Create('Маска', CheckLenght)],
                        '+Маска',
   function (aTask: ITask): ITaskParam
   var vName: string;
   begin
     vName:='Маска ' + IntToStr(Length(aTask.GetParams) - 1);
-    Result:=TTaskParam.Create(vName, nil);
+    Result:=TTaskParam.Create(vName, CheckLenght);
   end,
   nil,
   procedure(aTask:ITask; aThread: ITaskThread)
@@ -118,13 +126,13 @@ initialization
                          else
                            Result:='Файл не существует';
                        end),
-                       TTaskParam.Create('Символы', nil)],
+                       TTaskParam.Create('Символы', CheckLenght)],
                        '+Символы',
   function (aTask: ITask): ITaskParam
   var vName: string;
   begin
     vName:='Символы ' + IntToStr(Length(aTask.GetParams) - 1);
-    Result:=TTaskParam.Create(vName, nil);
+    Result:=TTaskParam.Create(vName, CheckLenght);
   end,
   nil,
   procedure(aTask:ITask; aThread: ITaskThread)

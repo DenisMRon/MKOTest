@@ -55,7 +55,13 @@ initialization
 
   vTasks:=TList<ITask>.Create;
   vTasks.Add(TTask.Create('Выполнение Shell-команды',
-                      [TTaskParam.Create('Команда', nil)],
+                      [TTaskParam.Create('Команда', function (aValue: string): string
+begin
+  if Length(aValue) > 0 then
+    Result:=EmptyStr
+  else
+    Result:='Команда не заданa';
+end)],
                        EmptyStr,nil,
   nil,
   procedure(aTask:ITask; aThread: ITaskThread)
